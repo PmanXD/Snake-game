@@ -1,0 +1,31 @@
+body {
+    background: #8e8e8e;
+  }
+  
+  canvas {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+    background: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  }
+  
+  #controls {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background: white;
+    border: none;
+    box-shadow: 0 5px 0 #b3b3b3;
+    cursor: pointer;
+  }
+  
+  button:active {
+    box-shadow: 0 2px 0 #b3b3b3;
+    transform: translateY(3px);
+  }
